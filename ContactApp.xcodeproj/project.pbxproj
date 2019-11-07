@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		836A9B162374234D0088F845 /* ContactService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836A9B152374234D0088F845 /* ContactService.swift */; };
+		836A9B18237423680088F845 /* ContactListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836A9B17237423680088F845 /* ContactListViewModel.swift */; };
 		E5542014233C620100214B66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5542013233C620100214B66 /* AppDelegate.swift */; };
 		E5542016233C620100214B66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5542015233C620100214B66 /* SceneDelegate.swift */; };
 		E554201D233C620300214B66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E554201C233C620300214B66 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		836A9B152374234D0088F845 /* ContactService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactService.swift; sourceTree = "<group>"; };
+		836A9B17237423680088F845 /* ContactListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewModel.swift; sourceTree = "<group>"; };
 		E5542010233C620100214B66 /* ContactApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5542013233C620100214B66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5542015233C620100214B66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		836A9B13237422D20088F845 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				836A9B152374234D0088F845 /* ContactService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		836A9B14237422DA0088F845 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				836A9B17237423680088F845 /* ContactListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		E5542007233C620100214B66 = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +89,8 @@
 		E5542027233C635A00214B66 /* ContactList */ = {
 			isa = PBXGroup;
 			children = (
+				836A9B14237422DA0088F845 /* ViewModel */,
+				836A9B13237422D20088F845 /* Service */,
 				E5542031233C646900214B66 /* Cell */,
 				E5542029233C637000214B66 /* ViewController */,
 				E5542028233C636600214B66 /* Models */,
@@ -146,7 +168,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				ORGANIZATIONNAME = "Ridho Pratama";
+				ORGANIZATIONNAME = "Tokopedia Academy";
 				TargetAttributes = {
 					E554200F233C620100214B66 = {
 						CreatedOnToolsVersion = 11.0;
@@ -190,8 +212,10 @@
 			files = (
 				E554202D233C642600214B66 /* Contact.swift in Sources */,
 				E5542033233C647600214B66 /* ContactListTableViewCell.swift in Sources */,
+				836A9B162374234D0088F845 /* ContactService.swift in Sources */,
 				E5542030233C646100214B66 /* ContactListViewController.swift in Sources */,
 				E5542014233C620100214B66 /* AppDelegate.swift in Sources */,
+				836A9B18237423680088F845 /* ContactListViewModel.swift in Sources */,
 				E5542016233C620100214B66 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
